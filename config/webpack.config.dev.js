@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const aliases = require('./aliases');
-const Dotenv = require('dotenv-webpack');
 
 const babelLoaderConfig = {
   loader: 'babel-loader',
@@ -33,9 +32,6 @@ module.exports = {
   },
   mode: 'development',
   devtool: 'eval-source-map',
-  node: {
-    fs: 'empty'
-  },
   resolve: {
     alias: {
       ...aliases,
@@ -61,7 +57,6 @@ module.exports = {
     }]
   },
   plugins: [
-    new Dotenv,
     new webpack.HotModuleReplacementPlugin()
   ]
 }

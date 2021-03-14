@@ -18,7 +18,6 @@ const app = express();
 
 app.use(
   devMiddleware(compiler, {
-    noInfo: true,
     publicPath: webpackConfig.output.publicPath
   })
 );
