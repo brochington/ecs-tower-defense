@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "types/*": ["src/client/types/*"],
+      "styles": ["src/client/styles/*"],
+      "components/*": ["src/client/components/*"],
+      "pages/*": ["src/client/pages/*"],
+      "actions/*": ["src/client/actions/*"],
+      "actions": ["src/client/actions/index.ts"],
+      "contexts/*": ["src/client/contexts/*"],
+      "utils/*": ["src/client/utils/*"],
+      "constants/*": ["src/client/constants/*"],
+      "services/*": ["src/client/services/*"],
+      "records/*": ["src/client/records/*"],
+      "hooks/*": ["src/client/hooks/*"]
+    }
+  },
+  "include": [
+    "src/client"
+  ]
+}
