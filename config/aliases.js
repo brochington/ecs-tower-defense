@@ -14,4 +14,5 @@ module.exports = {
   services: pathInClient("services"),
   styles: pathInClient("styles"),
   hooks: pathInClient("hooks"),
+  game: pathInClient("game"),
 };

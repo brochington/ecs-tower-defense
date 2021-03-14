@@ -1,10 +1,11 @@
 import React from 'react';
+import Game from 'components/Game';
 
 const HomePage: React.FC = () => {
 
   return (
-    <div>
-      hello there Broch.
+    <div className="flex-center">
+        <Game />
     </div>
   );
 };

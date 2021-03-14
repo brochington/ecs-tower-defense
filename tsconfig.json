@@ -22,7 +22,8 @@
       "constants/*": ["src/client/constants/*"],
       "services/*": ["src/client/services/*"],
       "records/*": ["src/client/records/*"],
-      "hooks/*": ["src/client/hooks/*"]
+      "hooks/*": ["src/client/hooks/*"],
+      "game/*": ["src/client/game/*"]
     }
   },
   "include": [

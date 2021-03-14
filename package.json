@@ -23,7 +23,8 @@
   "homepage": "https://github.com/brochington/ecs-tower-defense#readme",
   "dependencies": {
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.13.8",
-    "@brochington/horizon": "0.1.1",
+    "@brochington/ecstatic": "^0.2.2",
+    "@brochington/horizon": "0.1.2",
     "@types/classnames": "^2.2.11",
     "@types/lodash": "^4.14.168",
     "@types/react": "^17.0.3",
